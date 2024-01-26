@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.recent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 400px;
+}
+
+.visa-expiry {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: none;
+  border-bottom: none;
+}
+
+.visa-price {
+  color: green;
+  font-size: 12px;
+}
+
+.item2 {
+  border-left: none;
+  border-bottom: none;
+}
+
+.visa-foto {
+  margin-top: 10px;
+}
+
+.recent-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+
+.showmore {
+  color: violet;
+  font-weight: 600;
+  font-size: 14px;
+}
