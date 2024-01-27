@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-title {
+  color: black;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-text {
+  color: black;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cards-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: end;
+  gap: 14px;
+  width: 1200px;
+  margin-left: 86px;
+}
+
+.card {
+  width: 400px;
+}
